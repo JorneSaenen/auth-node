@@ -1,0 +1,30 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+h3,
+h1,
+h2 {
+  text-transform: uppercase;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+button {
+  margin-bottom: 10px;
+}
+
+.logout {
+  margin-top: 10px;
+}
